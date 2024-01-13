@@ -1,12 +1,16 @@
 {
   "name": "shaby-ecommerce-landing",
-  "version": "0.1.0",
+  "version": "0.4.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
+  },
+  "author": {
+    "name": "Faizanahmed Saiyed",
+    "email": "saiyed.faizanahmed1@gmail.com"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.0.2",
