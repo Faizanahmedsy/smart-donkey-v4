@@ -1,4 +1,4 @@
-import { UnderConstruction } from "@/components/modules";
+import { UnderConstruction } from "@/components/shared";
 
 const Blog = () => {
   return <UnderConstruction />;
