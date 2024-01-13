@@ -1,6 +1,6 @@
 "use client";
 import { useTheme } from "next-themes";
-import ThemeSwitch from "./modules/ThemeSwitch";
+import ThemeSwitch from "./shared/ThemeSwitch";
 
 export const ToggleTheme = () => {
   return (
