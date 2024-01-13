@@ -6,7 +6,7 @@ export const bebasNeue = Bebas_Neue({ subsets: ["latin"], weight: ["400"] });
 
 export const robotoCondensed = Roboto_Condensed({
   subsets: ["latin"],
-  weight: ["400"],
+  weight: ["600"],
 });
 
 export const roboto = Roboto({ subsets: ["latin"], weight: ["400"] });

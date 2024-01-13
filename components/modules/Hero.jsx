@@ -5,10 +5,10 @@ import { bebasNeue, robotoCondensed } from "@/utils/fonts";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col justify-center items-center min-h-screen gap-6">
+    <div className="flex flex-col p-6 items-center min-h-screen ">
       <h1
         className={cn(
-          "text-8xl font-bold flex text-zinc-500",
+          "text-[200px]  text-zinc-400   pt-24",
           bebasNeue.className
         )}
       >
@@ -23,17 +23,12 @@ const Hero = () => {
         </span> */}
       </h1>
 
-      <p
-        className={cn(
-          "text-2xl font-semibold text-zinc-500",
-          robotoCondensed.className
-        )}
-      >
+      <p className={cn("text-2xl font-semibold text-zinc-500")}>
         Learn things that actually matters in life, and make you a good and
         successful person.
       </p>
 
-      <div className="flex gap-4">
+      <div className="flex gap-4 m-4">
         <Button variant="outline">Learn More</Button>
         <Button>Get Started</Button>
       </div>
