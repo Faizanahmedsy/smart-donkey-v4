@@ -1,13 +1,12 @@
-import { Inter } from "next/font/google";
+import { Bebas_Neue, Inter } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
-import { Footer, Navbar } from "@/components/modules";
 import { ThemeProvider } from "@/components/themeProvider";
-
-const inter = Inter({ subsets: ["latin"] });
+import { roboto } from "@/utils/fonts";
+import { Navbar } from "@/components/shared";
 
 export const metadata = {
-  title: "Shaby Store",
+  title: "Smart Donkey",
   description: "Created by Faizan",
 };
 
@@ -15,7 +14,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={cn("bg-background text-text min-h-screen", inter.className)}
+        className={cn("bg-background text-text min-h-screen", roboto.className)}
       >
         <ThemeProvider
           attribute="class"
