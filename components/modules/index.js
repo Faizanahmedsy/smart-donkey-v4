@@ -1,5 +1,4 @@
-import Navbar from "./Navbar";
-import Footer from "./Footer";
-import UnderConstruction from "./UnderConstruction";
+import Hero from "./Hero";
+import WhyUs from "./WhyUs";
 
-export { Navbar, Footer, UnderConstruction };
+export { Hero, WhyUs };
