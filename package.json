@@ -10,7 +10,9 @@
   },
   "author": {
     "name": "Faizanahmed Saiyed",
-    "email": "saiyed.faizanahmed1@gmail.com"
+    "email": "saiyed.faizanahmed1@gmail.com",
+    "url": "",
+    "repository": ""
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.0.2",
