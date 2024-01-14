@@ -18,7 +18,8 @@ const Footer = () => {
             <p className="mt-4 text-sm">Content for section 3</p>
           </div>
         </div> */}
-        <hr className="border-t border-gray-400 mt-8 mb-8" />
+        <div className="w-full h-px bg-gradient-to-r from-transparent via-slate-800 to-transparent my-8"></div>
+        {/* <hr className="mt-8 mb-8" /> */}
         <div className="text-sm">
           &copy; {new Date().getFullYear()} Made with ❤️‍🔥{" "}
           <Link href={"https://www.faizanahmed.in"}>by Faizanahmed Saiyed</Link>
