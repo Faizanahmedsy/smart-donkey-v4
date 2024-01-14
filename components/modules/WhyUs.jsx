@@ -1,16 +1,13 @@
-import React from "react";
-import UiWrapper from "../shared/UiWrapper";
 import { Card } from "../ui/card";
-import { cn } from "@/lib/utils";
-import { bebasNeue } from "@/utils/fonts";
+import { cn } from "@/lib/util";
+import { bebasNeue } from "@/lib/utils/fonts";
+import { UiWrapper } from "../shared";
 
 const WhyUs = () => {
   return (
     <UiWrapper>
       <div className="flex flex-col items-center p-4 w-full gap-4 font-bold">
-        <h2 className={cn("text-4xl font-bold", bebasNeue.className)}>
-          Why smart donkey?
-        </h2>
+        <h2 className={cn("text-4xl font-bold")}>Why smart donkey?</h2>
 
         <div className="grid grid-cols-3 gap-2">
           <Card className="flex flex-col items-center justify-center p-10">
