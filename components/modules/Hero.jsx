@@ -2,8 +2,6 @@ import React from "react";
 import { Button } from "../ui/button";
 import { cn } from "@/lib/utils";
 import { poppins } from "@/utils/fonts";
-import Image from "next/image";
-import NavButtons from "../shared/NavButton";
 
 const Hero = () => {
   return (
@@ -29,8 +27,6 @@ const Hero = () => {
         <Button variant="outline">Explore</Button>
         <Button>Get Started</Button>
       </div>
-
-      <NavButtons />
     </div>
   );
 };
