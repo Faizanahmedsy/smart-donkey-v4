@@ -2,31 +2,19 @@ import React from "react";
 import { Button } from "../ui/button";
 import { cn } from "@/lib/utils";
 import { poppins } from "@/utils/fonts";
+import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col justify-center items-center min-h-[670px] text-center p-40">
-      <h1
-        style={
-          {
-            // padding: "30px 300px",
-          }
-        }
-        className={cn(
-          "text-6xl text-zinc-400 font-[600] py-7",
-          poppins.className
-        )}
-      >
-        Become as <span className="text-blue-200">smart</span> as a fox and as
+    <div
+      className="flex flex-col justify-center items-center min-h-[670px] text-center p-40"
+      // style={{
+      //   background: "linear-gradient(190deg, black, #000212, #092230)",
+      // }}
+    >
+      <h1 className={cn("text-6xl font-bold py-7", poppins.className)}>
+        Become as <span className="text-blue-200 ">smart</span> as a fox and as
         diligent as a <span className="text-blue-200">donkey</span>
-        {/* <span className="flex justify-center items-center">
-          <Image
-            src="https://api.iconify.design/fluent-emoji/laptop.svg"
-            height={50}
-            width={50}
-            alt="laptop"
-          />
-        </span> */}
       </h1>
 
       <p className={cn("text-2xl font-semibold text-zinc-500 px-40")}>
