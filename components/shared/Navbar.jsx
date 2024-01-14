@@ -10,13 +10,13 @@ export default function NavigationBar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <nav className="bg-white sticky z-50 top-0 inset-x-0 h-16 dark:bg-inherit dark:backdrop-blur-xl">
+    <nav className="sticky z-50 top-0 inset-x-0 h-16 dark:backdrop-blur-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <div className="flex-shrink-0 flex gap-4 items-center">
               <Link href="/" className="font-bold">
-                SMART DONKEY
+                Smart Donkey
               </Link>
             </div>
           </div>
