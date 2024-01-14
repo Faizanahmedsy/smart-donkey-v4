@@ -1,7 +1,7 @@
 import React from "react";
 import { Button } from "../ui/button";
-import { cn } from "@/lib/utils";
-import { poppins } from "@/utils/fonts";
+import { cn } from "@/lib/util";
+import { poppins } from "@/lib/utils/fonts";
 
 const Hero = () => {
   return (

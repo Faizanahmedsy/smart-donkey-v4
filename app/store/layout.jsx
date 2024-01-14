@@ -1,4 +1,4 @@
-import UiWrapper from "@/components/shared/UiWrapper";
+import { UiWrapper } from "@/components/shared";
 import React from "react";
 
 const ProductListLayout = ({ children }) => {
