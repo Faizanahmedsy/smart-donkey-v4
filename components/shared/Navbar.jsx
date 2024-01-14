@@ -31,7 +31,7 @@ export default function NavigationBar() {
                   {link.name}
                 </Link>
               ))}
-              <ThemeSwitch />
+              {/* <ThemeSwitch /> */}
             </div>
           </div>
           {/* <a className="block md:hidden">MobileLogo</a> */}
@@ -98,7 +98,7 @@ export default function NavigationBar() {
               </ul>
             </div>
 
-            <ThemeSwitch />
+            {/* <ThemeSwitch /> */}
           </div>
         </div>
       </div>
