@@ -3,7 +3,7 @@ import "./globals.css";
 import { cn } from "@/lib/utils";
 import { ThemeProvider } from "@/components/themeProvider";
 import { kulimPark, poppins, roboto } from "@/utils/fonts";
-import { Navbar } from "@/components/shared";
+import { Footer, Navbar } from "@/components/shared";
 
 // import image from "../public/bgpattern1.png";
 
@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
         >
           <Navbar />
           {children}
-          {/* <Footer /> */}
+          <Footer />
         </ThemeProvider>
       </body>
     </html>

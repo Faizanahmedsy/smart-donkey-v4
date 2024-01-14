@@ -1,5 +1,55 @@
+import Link from "next/link";
+
 const Footer = () => {
-  return <div>Footer</div>;
+  return (
+    <footer className="bg-inherit p-5 text-center text-white">
+      <div className="container mx-auto">
+        {/* <div className="flex flex-wrap justify-center">
+          <div className="w-full md:w-1/3 p-5">
+            <h3 className="text-lg">Section 1</h3>
+            <p className="mt-4 text-sm">Content for section 1</p>
+          </div>
+          <div className="w-full md:w-1/3 p-5">
+            <h3 className="text-lg">Section 2</h3>
+            <p className="mt-4 text-sm">Content for section 2</p>
+          </div>
+          <div className="w-full md:w-1/3 p-5">
+            <h3 className="text-lg">Section 3</h3>
+            <p className="mt-4 text-sm">Content for section 3</p>
+          </div>
+        </div> */}
+        <hr className="border-t border-gray-400 mt-8 mb-8" />
+        <div className="text-sm">
+          &copy; {new Date().getFullYear()} Made with ❤️‍🔥{" "}
+          <Link href={"https://www.faizanahmed.in"}>by Faizanahmed Saiyed</Link>
+        </div>
+        <div className="mt-4">
+          <Link
+            href="https://github.com/Faizanahmedsy"
+            className="mx-2 text-sm text-gray-300 hover:text-white"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub
+          </Link>
+          <Link
+            href="https://www.linkedin.com/in/faizanahmed-saiyed/"
+            className="mx-2 text-sm text-gray-300 hover:text-white"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn
+          </Link>
+          <Link
+            href="mailto:saiyed.faizanahmed1@gmail.com"
+            className="mx-2 text-sm text-gray-300 hover:text-white"
+          >
+            Gmail
+          </Link>
+        </div>
+      </div>
+    </footer>
+  );
 };
 
 export default Footer;
