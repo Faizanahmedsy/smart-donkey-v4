@@ -5,6 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import ThemeSwitch from "./ThemeSwitch";
+import NavButton from "./NavButton";
 
 export default function NavigationBar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -23,12 +24,17 @@ export default function NavigationBar() {
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-4">
               {navLinks.map((link) => (
+                // <Link
+                //   href={link.href}
+                //   key={link.id}
+                //   className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                // >
                 <Link
                   href={link.href}
                   key={link.id}
-                  className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  className="relative inline-flex items-center justify-center px-4 py-2 overflow-hidden  text-white text-sm rounded-md shadow-2xl group"
                 >
-                  {link.name}
+                  <NavButton text={link.name} />
                 </Link>
               ))}
               {/* <ThemeSwitch /> */}
