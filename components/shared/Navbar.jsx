@@ -16,9 +16,14 @@ export default function NavigationBar() {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <div className="flex-shrink-0 flex gap-4 items-center">
-              <Link href="/" className="font-bold">
-                Smart Donkey
-              </Link>
+              <div className="flex flex-col text-primary">
+                <Link href="/" className="font-bold">
+                  Smart Donkey
+                </Link>
+                <div className="text-[10px] font-thin text-muted-foreground">
+                  by faizanahmed
+                </div>
+              </div>
             </div>
           </div>
           <div className="hidden md:block">
