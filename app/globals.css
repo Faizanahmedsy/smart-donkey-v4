@@ -49,6 +49,14 @@
   }
 }
 
+/* body {
+  background: linear-gradient(
+    178.1deg,
+    rgb(60, 55, 106) 8.5%,
+    rgb(23, 20, 69) 82.4%
+  );
+} */
+
 @layer base {
   * {
     @apply border-border;
@@ -57,3 +65,49 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Apply a background gradient that is black and has blured gradiant of blue color */
+/* 
+@layer components {
+  .bg-gradient {
+    background: linear-gradient(
+      90deg,
+      hsl(var(--background) / 0.8),
+      hsl(var(--background) / 0.8) 50%,
+      hsl(var(--background) / 0.8)
+    );
+  }
+} */
+
+/* @layer components {
+  .bg-custom-image { */
+/* background: linear-gradient(165deg, #000000, darkslategrey, darkslategrey);
+    backdrop-filter: blur(10px); */
+/* background: linear-gradient(
+      165deg,
+      #000000,
+      darkslategrey,
+      #030303,
+      darkslategrey
+    ); */
+/* background: linear-gradient(180deg, #000000 0%, #1c2332 80%);
+    backdrop-filter: blur(12px); */
+/* } */
+
+/* .bg-custom-image {
+    background-image: url("../public/bg4.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  } */
+
+/* .bg-custom-image {
+    background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7) 30%,
+      hsl(var(--background) / 0.8)
+    );
+    backdrop-filter: blur(5px);
+  } */
+/* } */
