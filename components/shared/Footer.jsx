@@ -22,6 +22,7 @@ const Footer = () => {
         {/* <hr className="mt-8 mb-8" /> */}
         {/* Testing new branch
          */}
+        {/* Test */}
         <div className="text-sm px-16 md:px-4">
           &copy; {new Date().getFullYear()} Made with ❤️‍🔥{" "}
           <Link href={"https://www.faizanahmed.in"}>by Faizanahmed Saiyed</Link>
