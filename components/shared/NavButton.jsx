@@ -8,7 +8,7 @@ const NavButton = ({ text }) => {
       {/* //   href={link}
     //   className="relative inline-flex items-center justify-center px-4 py-2 overflow-hidden  text-white text-sm rounded-md shadow-2xl group"
     // > */}
-      <span className="absolute inset-0 w-full h-full transition duration-300 ease-out opacity-0 bg-gradient-to-br from-pink-600 via-purple-700 to-blue-400 group-hover:opacity-100"></span>
+      <span className="absolute inset-0 w-full h-full transition duration-300 ease-out opacity-0 bg-gradient-to-br from-transparent via-transparent to-sky-300 group-hover:opacity-100"></span>
 
       {/* <span className="absolute top-0 left-0 w-full bg-gradient-to-b from-white to-transparent opacity-5 h-1/3"></span>
       <span className="absolute bottom-0 left-0 w-full h-1/3 bg-gradient-to-t from-white to-transparent opacity-5"></span>
