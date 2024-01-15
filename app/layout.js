@@ -1,9 +1,12 @@
 import { Bebas_Neue, Inter } from "next/font/google";
 import "./globals.css";
-import { cn } from "@/lib/util";
+import { cn } from "@/lib/utils";
 import { ThemeProvider } from "@/components/themeProvider";
 import { kulimPark, poppins, roboto } from "@/lib/utils/fonts";
 import { Footer, Navbar } from "@/components/shared";
+import AppLayoutConfig from "@/components/shared/AppLayoutConfig";
+import NavBarConfig from "@/components/shared/NavBarConfig";
+import FooterConfig from "@/components/shared/FooterConfig";
 
 // import image from "../public/bgpattern1.png";
 
@@ -22,9 +25,9 @@ export default function RootLayout({ children }) {
           enableSystem
           disableTransitionOnChange
         >
-          <Navbar />
+          <NavBarConfig />
           <main>{children}</main>
-          <Footer />
+          <FooterConfig />
         </ThemeProvider>
       </body>
     </html>
