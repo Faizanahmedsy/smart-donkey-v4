@@ -5,15 +5,10 @@ import { poppins } from "@/lib/utils/fonts";
 
 const Hero = () => {
   return (
-    <div
-      className="flex flex-col justify-center items-center min-h-[670px] text-center p-40"
-      // style={{
-      //   background: "linear-gradient(190deg, black, #000212, #092230)",
-      // }}
-    >
+    <div className="flex flex-col justify-center items-center h-full md:min-h-[670px] text-center p-16 pt-24 md:p-40">
       <h1
         className={cn(
-          "animate-fade-in [--ani-delay:200ms] opacity-0 translate-y-[-1rem]  text-6xl font-bold py-7",
+          "animate-fade-in [--ani-delay:200ms] opacity-0 translate-y-[-1rem] text-4xl  md:text-6xl font-bold py-7",
           poppins.className
         )}
       >
@@ -23,7 +18,7 @@ const Hero = () => {
 
       <p
         className={cn(
-          "animate-fade-in [--ani-delay:400ms] opacity-0 translate-y-[-1rem] text-2xl font-semibold text-zinc-500 px-40"
+          "animate-fade-in [--ani-delay:400ms] opacity-0 translate-y-[-1rem] md:text-2xl font-semibold text-zinc-500 md:px-40"
         )}
       >
         Smart Donkey is a goldmine of resources collected from all over the
@@ -32,7 +27,7 @@ const Hero = () => {
         successful person. */}
       </p>
 
-      <div className="animate-fade-in  [--ani-delay:600ms] opacity-0 translate-y-[-1rem] flex gap-4 m-4">
+      <div className="animate-fade-in justify-center [--ani-delay:600ms] opacity-0 translate-y-[-1rem] flex-col md:flex-row w-full flex gap-6 md:gap-4 m-4">
         <Button variant="outline">Explore</Button>
         <Button>Get Started</Button>
       </div>
