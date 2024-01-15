@@ -20,7 +20,7 @@ const Footer = () => {
         </div> */}
         <div className="w-full h-px bg-gradient-to-r from-transparent via-slate-800 to-transparent my-8"></div>
         {/* <hr className="mt-8 mb-8" /> */}
-        <div className="text-sm">
+        <div className="text-sm px-16 md:px-4">
           &copy; {new Date().getFullYear()} Made with ❤️‍🔥{" "}
           <Link href={"https://www.faizanahmed.in"}>by Faizanahmed Saiyed</Link>
         </div>
