@@ -4,7 +4,7 @@ const BentoGrid = () => {
   return (
     <>
       <div className="p-14">
-        <div className="grid grid-cols-3  gap-6">
+        <div className="grid grid-cols-3 gap-6">
           <div className="col-span-2 rounded-3xl  border border-transparent-white  bg-glass-gradient p-14 md:p-[3.6rem]">
             <p className="text-3xl text-primary pb-4">Heading</p>
             <p className="text-md text-muted-foreground">
