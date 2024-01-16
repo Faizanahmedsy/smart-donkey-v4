@@ -1,5 +1,5 @@
 import { Card } from "../ui/card";
-import { cn } from "@/lib/util";
+import { cn } from "@/lib/utils";
 import { bebasNeue } from "@/lib/utils/fonts";
 import { UiWrapper } from "../shared";
 
