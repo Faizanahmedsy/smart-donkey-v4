@@ -1,4 +1,4 @@
-import { Hero, WhyUs } from "@/components/modules";
+import { BentoGrid, Hero, WhyUs } from "@/components/modules";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
@@ -7,6 +7,7 @@ export default function Home() {
     <>
       <Hero />
       <WhyUs />
+      <BentoGrid />
     </>
   );
 }
