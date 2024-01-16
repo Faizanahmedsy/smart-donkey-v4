@@ -6,7 +6,7 @@ const BentoGrid = () => {
       <div className="p-14">
         <div className="grid grid-cols-3 gap-6">
           <div className="col-span-2 rounded-3xl  border border-transparent-white  bg-glass-gradient p-14 md:p-[3.6rem]">
-            <p className="text-3xl text-primary pb-4">Heading</p>
+            <p className="text-3xl text-primary pb-4 font-bold">Heading</p>
             <p className="text-md text-muted-foreground">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum
               provident rem doloribus quis eos velit vero natus a cumque
@@ -17,14 +17,14 @@ const BentoGrid = () => {
             </p>
           </div>
           <div className="rounded-3xl border border-transparent-white  bg-glass-gradient p-14 md:p-[3.6rem]">
-            <p className="text-3xl text-primary pb-4">Heading</p>
+            <p className="text-3xl text-primary pb-4 font-bold">Heading</p>
             <p className="text-md text-muted-foreground">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum
               provident rem doloribus quis eos velit vero natus a cumque maiores
             </p>
           </div>
           <div className="rounded-3xl border border-transparent-white  bg-glass-gradient p-14 md:p-[3.6rem]">
-            <p className="text-3xl text-primary pb-4">Heading</p>
+            <p className="text-3xl text-primary pb-4 font-bold">Heading</p>
             <p className="text-md text-muted-foreground">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum
               provident rem doloribus quis eos velit vero natus a cumque
@@ -32,7 +32,7 @@ const BentoGrid = () => {
             </p>
           </div>
           <div className="col-span-2 rounded-3xl border border-transparent-white  bg-glass-gradient p-14 md:p-[3.6rem]">
-            <p className="text-3xl text-primary pb-4">Heading</p>
+            <p className="text-3xl text-primary pb-4 font-bold">Heading</p>
             <p className="text-md text-muted-foreground">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum
               provident rem doloribus quis eos velit vero natus a cumque
