@@ -61,17 +61,17 @@ export default function MusicPage() {
                     <div className="space-between flex items-center">
                       <TabsList>
                         <TabsTrigger value="music" className="relative">
-                          Music
+                          Videos
                         </TabsTrigger>
-                        <TabsTrigger value="podcasts">Podcasts</TabsTrigger>
+                        <TabsTrigger value="podcasts">Articles</TabsTrigger>
                         <TabsTrigger value="live" disabled>
-                          Live
+                          Audio Books
                         </TabsTrigger>
                       </TabsList>
                       <div className="ml-auto mr-4">
                         <Button>
                           {/* <PlusCircledIcon className="mr-2 h-4 w-4" /> */}
-                          Add music
+                          Add Course
                         </Button>
                       </div>
                     </div>
@@ -141,10 +141,10 @@ export default function MusicPage() {
                       <div className="flex items-center justify-between">
                         <div className="space-y-1">
                           <h2 className="text-2xl font-semibold tracking-tight">
-                            New Episodes
+                            New Courses
                           </h2>
                           <p className="text-sm text-muted-foreground">
-                            Your favorite podcasts. Updated daily.
+                            Your favorite courses. Updated daily.
                           </p>
                         </div>
                       </div>
