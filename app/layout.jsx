@@ -1,14 +1,8 @@
-import { Bebas_Neue, Inter } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
-import { ThemeProvider } from "@/components/themeProvider";
-import { kulimPark, poppins, roboto } from "@/lib/utils/fonts";
-import { Footer, Navbar } from "@/components/shared";
-import AppLayoutConfig from "@/components/shared/AppLayoutConfig";
-import NavBarConfig from "@/components/shared/NavBarConfig";
-import FooterConfig from "@/components/shared/FooterConfig";
-
-// import image from "../public/bgpattern1.png";
+import { poppins } from "@/lib/utils/fonts";
+import Providers from "./providers";
+import { FooterConfig, NavbarConfig } from "@/components/shared";
 
 export const metadata = {
   title: "Smart Donkey",
@@ -19,16 +13,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={cn(" bg-page-gradient min-h-screen", poppins.className)}>
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="system"
-          enableSystem
-          disableTransitionOnChange
-        >
-          <NavBarConfig />
+        <Providers>
+          <NavbarConfig />
           <main>{children}</main>
           <FooterConfig />
-        </ThemeProvider>
+        </Providers>
       </body>
     </html>
   );
