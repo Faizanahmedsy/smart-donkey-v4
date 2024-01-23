@@ -1,20 +1,10 @@
 "use client";
 import { BlogCard, UiWrapper, UnderConstruction } from "@/components/shared";
+import { useFetchBlogs } from "@/hooks";
 import { useQuery } from "@tanstack/react-query";
 
 const Blog = () => {
-  const {
-    status,
-    error,
-    data: blogsData,
-    isFetching,
-  } = useQuery({
-    queryKey: ["posts"],
-    queryFn: async () => {
-      const response = await fetch("http://localhost:3000/api/blogs");
-      return response.json();
-    },
-  });
+  const { status, error, data: blogsData, isFetching } = useFetchBlogs();
 
   console.log({ status, error, blogsData, isFetching });
 
