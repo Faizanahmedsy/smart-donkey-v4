@@ -1,7 +1,6 @@
 "use client";
 import { BlogCard, UiWrapper, UnderConstruction } from "@/components/shared";
 import { useFetchBlogs } from "@/hooks";
-import { useQuery } from "@tanstack/react-query";
 
 const Blog = () => {
   const { status, error, data: blogsData, isFetching } = useFetchBlogs();
