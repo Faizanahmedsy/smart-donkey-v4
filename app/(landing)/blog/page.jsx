@@ -7,7 +7,7 @@ const Blog = () => {
 
   console.log({ status, error, blogsData, isFetching });
 
-  const showUi = true; //TODO: set to false before pushing to production
+  const showUi = false; //TODO: set to false before pushing to production
 
   if (!showUi) {
     return <UnderConstruction />;
