@@ -3,17 +3,17 @@ import { BlogCard, UiWrapper, UnderConstruction } from "@/components/shared";
 import { useQuery } from "@tanstack/react-query";
 
 const Blog = () => {
-  // const { status, error, data, isFetching } = useQuery({
-  //   queryKey: ["posts"],
-  //   queryFn: async () => {
-  //     const response = await fetch("http://localhost:3000/api/blogs");
-  //     return response.json();
-  //   },
-  // });
+  const { status, error, data, isFetching } = useQuery({
+    queryKey: ["posts"],
+    queryFn: async () => {
+      const response = await fetch("http://localhost:3000/api/blogs");
+      return response.json();
+    },
+  });
 
-  // console.log({ status, error, data, isFetching });
+  console.log({ status, error, data, isFetching });
 
-  const showUi = false; //TODO: set to false before pushing to production
+  const showUi = true; //TODO: set to false before pushing to production
 
   return showUi ? (
     <UiWrapper>
