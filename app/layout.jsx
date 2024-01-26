@@ -2,7 +2,7 @@ import "./globals.css";
 import { cn } from "@/lib/utils";
 import { poppins } from "@/lib/utils/fonts";
 import Providers from "./providers";
-import { FooterConfig, NavbarConfig } from "@/components/shared";
+import { FooterSection, NavbarSection } from "@/components/shared";
 
 export const metadata = {
   title: "Smart Donkey",
@@ -14,9 +14,9 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={cn(" bg-page-gradient min-h-screen", poppins.className)}>
         <Providers>
-          <NavbarConfig />
+          <NavbarSection />
           <main>{children}</main>
-          <FooterConfig />
+          <FooterSection />
         </Providers>
       </body>
     </html>

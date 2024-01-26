@@ -4,8 +4,8 @@ import UnderConstruction from "./UnderConstruction";
 import NavButton from "./NavButton";
 import UiWrapper from "./UiWrapper";
 import ThemeSwitch from "./ThemeSwitch";
-import FooterConfig from "./FooterConfig";
-import NavbarConfig from "./NavbarConfig";
+import FooterSection from "./FooterConfig";
+import NavbarSection from "./NavBarConfig";
 import BlogCard from "./BlogCard";
 
 export {
@@ -15,7 +15,7 @@ export {
   NavButton,
   UiWrapper,
   ThemeSwitch,
-  FooterConfig,
-  NavbarConfig,
+  FooterSection,
+  NavbarSection,
   BlogCard,
 };
