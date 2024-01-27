@@ -1,4 +1,5 @@
 import { BentoGrid, Hero, WhyUs } from "@/components/modules";
+import { TabsDemo } from "@/components/modules/TabsDemo";
 import { Testimonial } from "@/components/modules/Testimonal";
 import { BackgroundBeamsDemo } from "@/components/shared/BackgroundBeams";
 import { InfiniteMovingCards } from "@/components/shared/InfiniteMovingCards";
