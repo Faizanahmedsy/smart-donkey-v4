@@ -8,7 +8,7 @@ const FooterConfig = () => {
 
   let adminPage = false;
 
-  if (pathName === "/admin") {
+  if (pathName === "/admin" || pathName === "/admin2") {
     adminPage = true;
   } else {
     adminPage = false;
